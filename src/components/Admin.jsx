@@ -27,7 +27,7 @@ const Admin = () => {
     .then((userCredential) => {
       // Signed in 
       const user = userCredential.user;
-      navigate('/admin');
+      navigate('/hero');
       // ...
     })
     .catch((error) => {
